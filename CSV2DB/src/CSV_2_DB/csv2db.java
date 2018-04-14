@@ -22,7 +22,7 @@ public class csv2db {
 		//get each row
 		String columns[]=csvToArray.getColumns();
 		
-		//connect to th db table and update
+		//connect to the db table and update
 		try {
 			Connection conn=myDBConnectorUpdater.getConnection(DBurl, user, pass);
 			myDBConnectorUpdater.insert(conn, tableName, columnNames, columns, rows);
