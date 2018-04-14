@@ -1,6 +1,6 @@
 package CSV_2_DB;
-import connectionDB.myDBConnectorUpdater;
-import csvOps.csvToArray;
+import connectionDB.myDBConnectorUpdater;       //package from DB_CSV_OPS_API that has been made
+import csvOps.csvToArray;                       //package from DB_CSV_OPS_API that has been made
 import java.sql.Connection;
 
 public class csv2db {
